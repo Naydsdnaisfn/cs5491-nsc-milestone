@@ -1,0 +1,783 @@
+{
+  "architectures": 100,
+  "group_sizes": {
+    "all": 4950,
+    "same_width_near_parameters": 180,
+    "same_width_depth_total_ffn_width": 0
+  },
+  "baseline_reproduced": true,
+  "ablation_exact": true,
+  "comparisons": {
+    "rank": {
+      "all": {
+        "original": {
+          "changed_pairs": 208,
+          "architectures": 78,
+          "candidate_correct": 136,
+          "reference_correct": 72,
+          "example_win": [
+            {
+              "id": "config_16_j5",
+              "ppl": 56.57292801531824,
+              "score": 85.7031149453,
+              "reference_score": 619.768300748,
+              "parameters": 5249314.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_1_j6",
+              "ppl": 42.47214453167912,
+              "score": 221.86868052,
+              "reference_score": 594.164467416,
+              "parameters": 10406323.0,
+              "hidden_width": 256
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_15_j2",
+              "ppl": 32.44716472625173,
+              "score": 679.950142501,
+              "reference_score": 1998.18906333,
+              "parameters": 19816321.0,
+              "hidden_width": 256
+            },
+            {
+              "id": "config_2_j2",
+              "ppl": 42.37899512819931,
+              "score": 853.567069731,
+              "reference_score": 1594.82543163,
+              "parameters": 11651107.0,
+              "hidden_width": 512
+            }
+          ]
+        },
+        "trace": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "flops": {
+          "changed_pairs": 234,
+          "architectures": 80,
+          "candidate_correct": 153,
+          "reference_correct": 81,
+          "example_win": [
+            {
+              "id": "config_16_j5",
+              "ppl": 56.57292801531824,
+              "score": 85.7031149453,
+              "reference_score": 4911104,
+              "parameters": 5249314.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_1_j6",
+              "ppl": 42.47214453167912,
+              "score": 221.86868052,
+              "reference_score": 4350976,
+              "parameters": 10406323.0,
+              "hidden_width": 256
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_15_j2",
+              "ppl": 32.44716472625173,
+              "score": 679.950142501,
+              "reference_score": 14883840,
+              "parameters": 19816321.0,
+              "hidden_width": 256
+            },
+            {
+              "id": "config_2_j2",
+              "ppl": 42.37899512819931,
+              "score": 853.567069731,
+              "reference_score": 11421696,
+              "parameters": 11651107.0,
+              "hidden_width": 512
+            }
+          ]
+        },
+        "parameters": {
+          "changed_pairs": 1125,
+          "architectures": 99,
+          "candidate_correct": 948,
+          "reference_correct": 177,
+          "example_win": [
+            {
+              "id": "config_18_j9",
+              "ppl": 71.81690212371461,
+              "score": 14.8206120579,
+              "reference_score": 13688313.0,
+              "parameters": 13688313.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_6_j8",
+              "ppl": 34.88207561136738,
+              "score": 885.671560853,
+              "reference_score": 11728701.0,
+              "parameters": 11728701.0,
+              "hidden_width": 256
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_15_j2",
+              "ppl": 32.44716472625173,
+              "score": 679.950142501,
+              "reference_score": 19816321.0,
+              "parameters": 19816321.0,
+              "hidden_width": 256
+            },
+            {
+              "id": "config_2_j2",
+              "ppl": 42.37899512819931,
+              "score": 853.567069731,
+              "reference_score": 11651107.0,
+              "parameters": 11651107.0,
+              "hidden_width": 512
+            }
+          ]
+        },
+        "moment": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        }
+      },
+      "same_width_near_parameters": {
+        "original": {
+          "changed_pairs": 7,
+          "architectures": 13,
+          "candidate_correct": 5,
+          "reference_correct": 2,
+          "example_win": [
+            {
+              "id": "config_13_j5",
+              "ppl": 41.35658365250346,
+              "score": 320.877198518,
+              "reference_score": 1568.39117802,
+              "parameters": 8353642.0,
+              "hidden_width": 128
+            },
+            {
+              "id": "config_2_j8",
+              "ppl": 38.96509793885542,
+              "score": 341.255608631,
+              "reference_score": 1492.81635816,
+              "parameters": 8894482.0,
+              "hidden_width": 128
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_11_j1",
+              "ppl": 56.24544582906866,
+              "score": 71.5723850345,
+              "reference_score": 517.596998566,
+              "parameters": 10039362.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_19_j6",
+              "ppl": 55.454349466189406,
+              "score": 65.3892122315,
+              "reference_score": 525.557071574,
+              "parameters": 10093997.0,
+              "hidden_width": 64
+            }
+          ]
+        },
+        "trace": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "flops": {
+          "changed_pairs": 7,
+          "architectures": 13,
+          "candidate_correct": 5,
+          "reference_correct": 2,
+          "example_win": [
+            {
+              "id": "config_13_j5",
+              "ppl": 41.35658365250346,
+              "score": 320.877198518,
+              "reference_score": 12021760,
+              "parameters": 8353642.0,
+              "hidden_width": 128
+            },
+            {
+              "id": "config_2_j8",
+              "ppl": 38.96509793885542,
+              "score": 341.255608631,
+              "reference_score": 11513856,
+              "parameters": 8894482.0,
+              "hidden_width": 128
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_11_j1",
+              "ppl": 56.24544582906866,
+              "score": 71.5723850345,
+              "reference_score": 4139008,
+              "parameters": 10039362.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_19_j6",
+              "ppl": 55.454349466189406,
+              "score": 65.3892122315,
+              "reference_score": 4150016,
+              "parameters": 10093997.0,
+              "hidden_width": 64
+            }
+          ]
+        },
+        "parameters": {
+          "changed_pairs": 75,
+          "architectures": 63,
+          "candidate_correct": 61,
+          "reference_correct": 14,
+          "example_win": [
+            {
+              "id": "config_19_j8",
+              "ppl": 62.14031717096648,
+              "score": 35.6700477416,
+              "reference_score": 9220294.0,
+              "parameters": 9220294.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_9_j7",
+              "ppl": 51.680265082655,
+              "score": 115.213804195,
+              "reference_score": 9205159.0,
+              "parameters": 9205159.0,
+              "hidden_width": 64
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_15_j0",
+              "ppl": 30.072121512775375,
+              "score": 4601.17758255,
+              "reference_score": 29780578.0,
+              "parameters": 29780578.0,
+              "hidden_width": 512
+            },
+            {
+              "id": "config_6_j2",
+              "ppl": 27.33067299699775,
+              "score": 4239.18776231,
+              "reference_score": 31452679.0,
+              "parameters": 31452679.0,
+              "hidden_width": 512
+            }
+          ]
+        },
+        "moment": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        }
+      },
+      "same_width_depth_total_ffn_width": {
+        "original": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "trace": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "flops": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "parameters": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "moment": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        }
+      }
+    },
+    "moment": {
+      "all": {
+        "original": {
+          "changed_pairs": 208,
+          "architectures": 78,
+          "candidate_correct": 136,
+          "reference_correct": 72,
+          "example_win": [
+            {
+              "id": "config_16_j5",
+              "ppl": 56.57292801531824,
+              "score": 85.6479236177,
+              "reference_score": 619.768300748,
+              "parameters": 5249314.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_1_j6",
+              "ppl": 42.47214453167912,
+              "score": 221.154101044,
+              "reference_score": 594.164467416,
+              "parameters": 10406323.0,
+              "hidden_width": 256
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_15_j2",
+              "ppl": 32.44716472625173,
+              "score": 676.686336997,
+              "reference_score": 1998.18906333,
+              "parameters": 19816321.0,
+              "hidden_width": 256
+            },
+            {
+              "id": "config_2_j2",
+              "ppl": 42.37899512819931,
+              "score": 846.337938416,
+              "reference_score": 1594.82543163,
+              "parameters": 11651107.0,
+              "hidden_width": 512
+            }
+          ]
+        },
+        "trace": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "flops": {
+          "changed_pairs": 234,
+          "architectures": 80,
+          "candidate_correct": 153,
+          "reference_correct": 81,
+          "example_win": [
+            {
+              "id": "config_16_j5",
+              "ppl": 56.57292801531824,
+              "score": 85.6479236177,
+              "reference_score": 4911104,
+              "parameters": 5249314.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_1_j6",
+              "ppl": 42.47214453167912,
+              "score": 221.154101044,
+              "reference_score": 4350976,
+              "parameters": 10406323.0,
+              "hidden_width": 256
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_15_j2",
+              "ppl": 32.44716472625173,
+              "score": 676.686336997,
+              "reference_score": 14883840,
+              "parameters": 19816321.0,
+              "hidden_width": 256
+            },
+            {
+              "id": "config_2_j2",
+              "ppl": 42.37899512819931,
+              "score": 846.337938416,
+              "reference_score": 11421696,
+              "parameters": 11651107.0,
+              "hidden_width": 512
+            }
+          ]
+        },
+        "parameters": {
+          "changed_pairs": 1125,
+          "architectures": 99,
+          "candidate_correct": 948,
+          "reference_correct": 177,
+          "example_win": [
+            {
+              "id": "config_18_j9",
+              "ppl": 71.81690212371461,
+              "score": 14.8041734273,
+              "reference_score": 13688313.0,
+              "parameters": 13688313.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_6_j8",
+              "ppl": 34.88207561136738,
+              "score": 882.36081979,
+              "reference_score": 11728701.0,
+              "parameters": 11728701.0,
+              "hidden_width": 256
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_15_j2",
+              "ppl": 32.44716472625173,
+              "score": 676.686336997,
+              "reference_score": 19816321.0,
+              "parameters": 19816321.0,
+              "hidden_width": 256
+            },
+            {
+              "id": "config_2_j2",
+              "ppl": 42.37899512819931,
+              "score": 846.337938416,
+              "reference_score": 11651107.0,
+              "parameters": 11651107.0,
+              "hidden_width": 512
+            }
+          ]
+        },
+        "rank": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        }
+      },
+      "same_width_near_parameters": {
+        "original": {
+          "changed_pairs": 7,
+          "architectures": 13,
+          "candidate_correct": 5,
+          "reference_correct": 2,
+          "example_win": [
+            {
+              "id": "config_13_j5",
+              "ppl": 41.35658365250346,
+              "score": 320.161641107,
+              "reference_score": 1568.39117802,
+              "parameters": 8353642.0,
+              "hidden_width": 128
+            },
+            {
+              "id": "config_2_j8",
+              "ppl": 38.96509793885542,
+              "score": 340.671032247,
+              "reference_score": 1492.81635816,
+              "parameters": 8894482.0,
+              "hidden_width": 128
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_11_j1",
+              "ppl": 56.24544582906866,
+              "score": 71.5212124015,
+              "reference_score": 517.596998566,
+              "parameters": 10039362.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_19_j6",
+              "ppl": 55.454349466189406,
+              "score": 65.3313678723,
+              "reference_score": 525.557071574,
+              "parameters": 10093997.0,
+              "hidden_width": 64
+            }
+          ]
+        },
+        "trace": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "flops": {
+          "changed_pairs": 7,
+          "architectures": 13,
+          "candidate_correct": 5,
+          "reference_correct": 2,
+          "example_win": [
+            {
+              "id": "config_13_j5",
+              "ppl": 41.35658365250346,
+              "score": 320.161641107,
+              "reference_score": 12021760,
+              "parameters": 8353642.0,
+              "hidden_width": 128
+            },
+            {
+              "id": "config_2_j8",
+              "ppl": 38.96509793885542,
+              "score": 340.671032247,
+              "reference_score": 11513856,
+              "parameters": 8894482.0,
+              "hidden_width": 128
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_11_j1",
+              "ppl": 56.24544582906866,
+              "score": 71.5212124015,
+              "reference_score": 4139008,
+              "parameters": 10039362.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_19_j6",
+              "ppl": 55.454349466189406,
+              "score": 65.3313678723,
+              "reference_score": 4150016,
+              "parameters": 10093997.0,
+              "hidden_width": 64
+            }
+          ]
+        },
+        "parameters": {
+          "changed_pairs": 75,
+          "architectures": 63,
+          "candidate_correct": 61,
+          "reference_correct": 14,
+          "example_win": [
+            {
+              "id": "config_19_j8",
+              "ppl": 62.14031717096648,
+              "score": 35.6458624164,
+              "reference_score": 9220294.0,
+              "parameters": 9220294.0,
+              "hidden_width": 64
+            },
+            {
+              "id": "config_9_j7",
+              "ppl": 51.680265082655,
+              "score": 115.125446623,
+              "reference_score": 9205159.0,
+              "parameters": 9205159.0,
+              "hidden_width": 64
+            }
+          ],
+          "example_loss": [
+            {
+              "id": "config_15_j0",
+              "ppl": 30.072121512775375,
+              "score": 4564.94727388,
+              "reference_score": 29780578.0,
+              "parameters": 29780578.0,
+              "hidden_width": 512
+            },
+            {
+              "id": "config_6_j2",
+              "ppl": 27.33067299699775,
+              "score": 4203.33870318,
+              "reference_score": 31452679.0,
+              "parameters": 31452679.0,
+              "hidden_width": 512
+            }
+          ]
+        },
+        "rank": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        }
+      },
+      "same_width_depth_total_ffn_width": {
+        "original": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "trace": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "flops": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "parameters": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        },
+        "rank": {
+          "changed_pairs": 0,
+          "architectures": 0,
+          "candidate_correct": 0,
+          "reference_correct": 0,
+          "example_win": null,
+          "example_loss": null
+        }
+      }
+    }
+  },
+  "trace_ranking": {
+    "all": {
+      "pairs": 4950,
+      "concordant": 4671,
+      "discordant": 279,
+      "score_only_ties": 0,
+      "quality_only_ties": 0,
+      "both_ties": 0,
+      "tau_b": 0.8872727272727273
+    },
+    "same_width_near_parameters": {
+      "pairs": 180,
+      "concordant": 149,
+      "discordant": 31,
+      "score_only_ties": 0,
+      "quality_only_ties": 0,
+      "both_ties": 0,
+      "tau_b": 0.6555555555555556
+    },
+    "same_width_depth_total_ffn_width": {
+      "pairs": 0,
+      "concordant": 0,
+      "discordant": 0,
+      "score_only_ties": 0,
+      "quality_only_ties": 0,
+      "both_ties": 0,
+      "tau_b": null
+    }
+  },
+  "trace_selection": [
+    {
+      "budget": 10000000,
+      "k": 1,
+      "mean_best_ppl": 37.60096283432599,
+      "mean_regret": 0.0,
+      "sd_best_ppl": 0.0,
+      "trials": 200
+    },
+    {
+      "budget": 10000000,
+      "k": 3,
+      "mean_best_ppl": 37.60096283432599,
+      "mean_regret": 0.0,
+      "sd_best_ppl": 0.0,
+      "trials": 200
+    },
+    {
+      "budget": 20000000,
+      "k": 1,
+      "mean_best_ppl": 33.12867929252066,
+      "mean_regret": 3.1747762814305602,
+      "sd_best_ppl": 0.0,
+      "trials": 200
+    },
+    {
+      "budget": 20000000,
+      "k": 3,
+      "mean_best_ppl": 29.953903011090098,
+      "mean_regret": 0.0,
+      "sd_best_ppl": 0.0,
+      "trials": 200
+    },
+    {
+      "budget": 30000000,
+      "k": 1,
+      "mean_best_ppl": 30.072121512775375,
+      "mean_regret": 1.8061384691106461,
+      "sd_best_ppl": 0.0,
+      "trials": 200
+    },
+    {
+      "budget": 30000000,
+      "k": 3,
+      "mean_best_ppl": 28.350577703984673,
+      "mean_regret": 0.08459466031994367,
+      "sd_best_ppl": 0.0,
+      "trials": 200
+    },
+    {
+      "budget": 50000000,
+      "k": 1,
+      "mean_best_ppl": 26.015654771909848,
+      "mean_regret": 0.08862673016162148,
+      "sd_best_ppl": 0.0,
+      "trials": 200
+    },
+    {
+      "budget": 50000000,
+      "k": 3,
+      "mean_best_ppl": 26.015654771909848,
+      "mean_regret": 0.08862673016162148,
+      "sd_best_ppl": 0.0,
+      "trials": 200
+    }
+  ],
+  "selection_criterion": [
+    {
+      "method": "moment",
+      "mean_regret": 0.6553453588980491,
+      "controlled_tau": 0.6555555555555556
+    },
+    {
+      "method": "rank",
+      "mean_regret": 0.6553453588980491,
+      "controlled_tau": 0.6555555555555556
+    }
+  ]
+}
